@@ -32,7 +32,6 @@ nav a {
   font-weight: 500;
   font-size: 20px;
   text-decoration: none;
-  transition: 0.2s ease-in;
 }
 
 nav a:hover {
@@ -40,6 +39,7 @@ nav a:hover {
 }
 
 .produtos {
+  display: flex;
   width: 940px;
   margin: 0 auto;
   padding: 50px 0;
@@ -65,14 +65,11 @@ nav a:hover {
   color: #c78c19;
   transition: all 0.2s ease;
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .produtos li:active {
   border-color: #088c19;
-}
-
-.produtos li:hover h2 {
-  font-size: 32px;
 }
 
 .produtos h2 {
@@ -120,19 +117,20 @@ form legend {
 
 .input-padrao {
   display: block;
-  margin: 8px 0 20px;
-  padding: 14px 10px;
+  margin: 0 0 20px;
+  padding: 10px 25px;
   width: 50%;
 }
 
 .checkbox {
   margin: 20px 0;
+
 }
 
 .enviar {
   width: 40%;
   padding: 15px 0;
-  background: #ffa500;
+  background: darkgrey;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -140,11 +138,11 @@ form legend {
   border-radius: 5px;
   transition: 1s all;
   cursor: pointer;
-  transition: 0.2s ease-in;
 }
 
 .enviar:hover {
-  background: #ff8c00;
+  background: grey;
+  transform: scale(1.2);
 }
 
 table {
@@ -194,8 +192,7 @@ td, th {
 }
 
 .utensilios {
-  width: 146px;
-  border-radius: 8px;
+  width: 120px;
   float: left;
   margin: 0 20px 20px 0;
 }
