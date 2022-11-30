@@ -28,10 +28,12 @@ nav a {
   text-transform: uppercase;
   color: #FFF;
   background-color: #171717;
+  border-radius: 6px;
   padding: 8px 12px;
   font-weight: 500;
   font-size: 20px;
   text-decoration: none;
+  transition: 0.2s;
 }
 
 nav a:hover {
@@ -58,12 +60,12 @@ nav a:hover {
   box-sizing: border-box;
   border: 2px solid #000000;
   border-radius: 10px;
+  transition: 0.2s;
 }
 
 .produtos li:hover {
   border-color: #c78c19;
   color: #c78c19;
-  transition: all 0.2s ease;
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -130,7 +132,7 @@ form legend {
 .enviar {
   width: 40%;
   padding: 15px 0;
-  background: darkgrey;
+  background: #ffa500;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -141,7 +143,7 @@ form legend {
 }
 
 .enviar:hover {
-  background: grey;
+  background: #ff8c00;
   transform: scale(1.2);
 }
 
